@@ -1,12 +1,3 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-    background-color: #072e1f;
-    /* match hero so no white shows below */
-    scroll-behavior: smooth;
-}
-
 .main {
     position: relative;
     height: calc(100vh - 70px);
@@ -240,4 +231,23 @@ header .navbar {
     .my-5 .card {
         margin-bottom: 20px;
     }
+}
+.faculty-section h2{ 
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.faculty-section h5{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+.faculty-section p{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.faculty-section .row {
+    justify-content: center; /* centers the cards horizontally */
 }
