@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const aboutLink = document.querySelector('a[href="about.html"]');
+    const aboutLink = document.querySelector('a[href="about-ics.html"]');
     if (aboutLink) {
         aboutLink.addEventListener('click', function(event) {
             event.preventDefault();
@@ -17,4 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     }
-});

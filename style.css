@@ -132,13 +132,13 @@ header .navbar {
 }
 
 .about-page-body {
-    background-color: #f9f9f9; /* light background */
+    background-color: #2E6F40; /* light background */
     padding: 60px 15px; /* top & bottom padding */
 }
 
 .about-page-body h2 {
     font-family: Georgia, 'Times New Roman', serif;
-    color: #03562a; /* dark green heading */
+    color: white; /* dark green heading */
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 3rem;
@@ -175,7 +175,7 @@ header .navbar {
     font-weight: 700;
     color: white;
     margin-bottom: 40px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 
@@ -234,7 +234,11 @@ header .navbar {
 }
 .faculty-section h2{ 
     font-family: Georgia, 'Times New Roman', serif;
+    color: white; /* dark green heading */
+    margin-bottom: 20px;
+    font-weight: 700;
     font-size: 3rem;
+    text-transform: uppercase;
     text-align: center;
 }
 .faculty-section h5{
