@@ -1,16 +1,12 @@
 .main {
     position: relative;
     height: calc(100vh - 70px);
-    /* hero area below the navbar */
     padding-top: 0;
-    /* we will nudge the hero content itself */
     display: flex;
     align-items: flex-start;
-    /* keep hero content from vertically centering so it doesn't overlap header */
     justify-content: center;
     color: #fff;
     overflow: visible;
-    /* allow page to scroll */
 }
 
 .main .bg-img {
@@ -18,33 +14,26 @@
     inset: 0;
     width: 100%;
     height: 125%;
-    /* slightly larger so we can shift image upward without exposing bottom */
     top: -16%;
-    /* nudge image further upward so the "COMPUTER STUDIES" header sits nicely under the navbar */
     object-fit: cover;
     object-position: center 8%;
-    /* slight focal adjustment toward the top */
     z-index: 0;
     transform: translateZ(0);
 }
 
-/* overlay to match screenshot (green top, darker bottom) */
 .main .overlay {
     position: absolute;
     top: -16%;
-    /* same as .bg-img */
     left: 0;
     width: 100%;
     height: 125%;
     z-index: 1;
-    /* darker overlay that covers the whole image for better contrast */
     background: linear-gradient(180deg,
             rgba(3, 86, 42, 0.72) 0%,
             rgba(3, 86, 42, 0.68) 30%,
             rgba(5, 12, 26, 0.72) 65%,
             rgba(3, 6, 12, 0.9) 100%);
     pointer-events: none;
-    /* allow clicks through overlay */
 }
 
 .hero-content {
@@ -132,7 +121,7 @@ header .navbar {
 }
 
 .about-page-body {
-    background-color: #2E6F40; /* light background */
+    background-color: #2E6F40; 
     padding: 60px 15px; /* top & bottom padding */
 }
 
@@ -234,7 +223,7 @@ header .navbar {
 }
 .faculty-section h2{ 
     font-family: Georgia, 'Times New Roman', serif;
-    color: white; /* dark green heading */
+    color: white; 
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 3rem;
@@ -253,5 +242,34 @@ header .navbar {
     text-align: center;
 }
 .faculty-section .row {
-    justify-content: center; /* centers the cards horizontally */
+    justify-content: center; 
+}
+.yearlevels-section h2{
+    font-family: Georgia, 'Times New Roman', serif;
+    color: white; 
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.yearlevels-section h5 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+.yearlevels-section p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.yearlevels-section h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+.yearlevels-section .row {
+    justify-content: center; 
 }
