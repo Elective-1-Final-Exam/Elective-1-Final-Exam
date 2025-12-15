@@ -273,3 +273,33 @@ header .navbar {
 .yearlevels-section .row {
     justify-content: center; 
 }
+.note-section {
+    min-height: calc(100vh - 70px); /* subtract navbar height */
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    background-color: #2f6b3f; /* your green background */
+    padding: 20px;
+}
+
+.contact-card {
+    width: 100%;
+    max-width: 520px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    padding: 25px;
+}
+#sendBtn {
+    width: 100%;
+    margin-top: 10px;
+    background: #4c8ff7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
